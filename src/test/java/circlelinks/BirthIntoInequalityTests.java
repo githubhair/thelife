@@ -15,17 +15,20 @@ public class BirthIntoInequalityTests extends BaseTests {
 
 
     @BeforeTest
-    public void setUp() {
+    public void setUp()
+    {
         birthIntoInequalityPage = homePage.clickBirthIntoInequality();
     }
 
     @Test
-    public void clickInitializePlayButton(){
-        birthIntoInequalityPage.clickInitializePlayButton();
+    public void clickInitializePlayButton()
+    {
+        birthIntoInequalityPage.clickInitializePlayButton(0, 200);
     }
-    @Test
-    public void inTheHouseMainRealPlayButton(){
-        birthIntoInequalityPage.ClickIninHouseActualPlayButton();
 
+    @Test
+    public void inTheHouseMainRealPlayButton()
+    {
+        birthIntoInequalityPage.ClickInHouseActualPlayButton();
     }
 }
